@@ -16,6 +16,7 @@ $mail->Host='smtp.gmail.com';//the smtp server
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use STARTTLS for encryption
 $mail->Port=587;
 $mail->Username="vanessarosepaul7@gmail.com";
+$mail->Password="mvwe blsl zeuv leex";
 
 $mail->isHTML(true);
 return $mail;
