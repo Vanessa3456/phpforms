@@ -6,7 +6,7 @@ if (isset($_POST["email"])) {
 
     $token_hash=hash("sha256",$token);
 
-    $expire_at = date("Y-m-d H:i:s", time() + 60 * 60); // token will be valid for 1 hour
+    $expire_at = date("Y-m-d H:i:s", time() + 60 * 30); // token will be valid for 1 hour
 
     $mysqli= require __DIR__ . '/connect.php';
 
